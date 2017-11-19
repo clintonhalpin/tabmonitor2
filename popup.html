@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <script src="popup.js"></script>
+    <style type="text/css">
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        white-space: nowrap;
+        width: 280px;
+        margin: 0;
+        overflow-y: scroll;
+        clear: both;
+        min-height: 300px;
+      }
+
+      h1 {
+        font-size: 15px;
+        margin: 6px;
+      }
+
+      .text-truncate {
+        max-width: 100%;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        white-space: nowrap !important;
+        word-wrap: normal !important;
+      }
+
+      .table {
+        width: 100%;
+        display: table;
+      }
+
+      .table-cell {
+        display: table-cell;
+      }
+
+      .image-cell {
+        width: 26px;
+      }
+
+      .favicon {
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+        vertical-align: top;
+      }
+
+      .title {
+        vertical-align: middle;
+        text-decoration: none;
+        color: #000;
+      }
+
+      .cell {
+        padding: 3px;
+      }
+
+      .cell:hover,
+      .cell:focus {
+        background: #2095f0;
+        color: white;
+        outline: 0;
+      }
+
+      .cell:hover .title,
+      .cell:focus .title {
+        color: white;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .count {
+        float: right;
+      }
+
+      .bar {
+        background: #ededed;
+        padding: 6px;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .right-align {
+        text-align: right;
+      }
+
+      .bar button {
+        margin: 0;
+        display: inline-block;
+      }
+
+      .bar button:disabled {
+        color: white;
+        background: #2b91fd;
+      }
+
+      .bold {
+        font-weight: 700;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container clearfix"></div>
+  </body>
+</html>
